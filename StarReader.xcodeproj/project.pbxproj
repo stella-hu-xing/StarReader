@@ -7,68 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79D4787B1FC29BD4008B7F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4787A1FC29BD4008B7F9E /* AppDelegate.swift */; };
-		79D4787D1FC29BD4008B7F9E /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4787C1FC29BD4008B7F9E /* DocumentBrowserViewController.swift */; };
-		79D4787F1FC29BD4008B7F9E /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4787E1FC29BD4008B7F9E /* DocumentViewController.swift */; };
-		79D478811FC29BD4008B7F9E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D478801FC29BD4008B7F9E /* Document.swift */; };
-		79D478841FC29BD4008B7F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D478821FC29BD4008B7F9E /* Main.storyboard */; };
-		79D478861FC29BD4008B7F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D478851FC29BD4008B7F9E /* Assets.xcassets */; };
-		79D478891FC29BD4008B7F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D478871FC29BD4008B7F9E /* LaunchScreen.storyboard */; };
-		79D478941FC29BD4008B7F9E /* StarReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D478931FC29BD4008B7F9E /* StarReaderTests.swift */; };
-		79D4789F1FC29BD4008B7F9E /* StarReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D4789E1FC29BD4008B7F9E /* StarReaderUITests.swift */; };
+		7916B4B61FC2AB2E00CB76D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4B51FC2AB2E00CB76D2 /* AppDelegate.swift */; };
+		7916B4B81FC2AB2E00CB76D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4B71FC2AB2E00CB76D2 /* ViewController.swift */; };
+		7916B4BB1FC2AB2E00CB76D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7916B4B91FC2AB2E00CB76D2 /* Main.storyboard */; };
+		7916B4BE1FC2AB2E00CB76D2 /* StarReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4BC1FC2AB2E00CB76D2 /* StarReader.xcdatamodeld */; };
+		7916B4C01FC2AB2E00CB76D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7916B4BF1FC2AB2E00CB76D2 /* Assets.xcassets */; };
+		7916B4C31FC2AB2E00CB76D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7916B4C11FC2AB2E00CB76D2 /* LaunchScreen.storyboard */; };
+		7916B4CE1FC2AB2E00CB76D2 /* StarReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4CD1FC2AB2E00CB76D2 /* StarReaderTests.swift */; };
+		7916B4D91FC2AB2E00CB76D2 /* StarReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4D81FC2AB2E00CB76D2 /* StarReaderUITests.swift */; };
+		7916B4E81FC2ABDB00CB76D2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916B4E71FC2ABD500CB76D2 /* CoreText.framework */; };
+		7916B4EA1FC2AC4E00CB76D2 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916B4E91FC2AC4E00CB76D2 /* ReadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79D478901FC29BD4008B7F9E /* PBXContainerItemProxy */ = {
+		7916B4CA1FC2AB2E00CB76D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 79D4786F1FC29BD4008B7F9E /* Project object */;
+			containerPortal = 7916B4AA1FC2AB2E00CB76D2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79D478761FC29BD4008B7F9E;
+			remoteGlobalIDString = 7916B4B11FC2AB2E00CB76D2;
 			remoteInfo = StarReader;
 		};
-		79D4789B1FC29BD4008B7F9E /* PBXContainerItemProxy */ = {
+		7916B4D51FC2AB2E00CB76D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 79D4786F1FC29BD4008B7F9E /* Project object */;
+			containerPortal = 7916B4AA1FC2AB2E00CB76D2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79D478761FC29BD4008B7F9E;
+			remoteGlobalIDString = 7916B4B11FC2AB2E00CB76D2;
 			remoteInfo = StarReader;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79D478771FC29BD4008B7F9E /* StarReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D4787A1FC29BD4008B7F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79D4787C1FC29BD4008B7F9E /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
-		79D4787E1FC29BD4008B7F9E /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		79D478801FC29BD4008B7F9E /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		79D478831FC29BD4008B7F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79D478851FC29BD4008B7F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79D478881FC29BD4008B7F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79D4788A1FC29BD4008B7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79D4788F1FC29BD4008B7F9E /* StarReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D478931FC29BD4008B7F9E /* StarReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarReaderTests.swift; sourceTree = "<group>"; };
-		79D478951FC29BD4008B7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79D4789A1FC29BD4008B7F9E /* StarReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D4789E1FC29BD4008B7F9E /* StarReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarReaderUITests.swift; sourceTree = "<group>"; };
-		79D478A01FC29BD4008B7F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7916B4B21FC2AB2E00CB76D2 /* StarReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7916B4B51FC2AB2E00CB76D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7916B4B71FC2AB2E00CB76D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7916B4BA1FC2AB2E00CB76D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7916B4BD1FC2AB2E00CB76D2 /* StarReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarReader.xcdatamodel; sourceTree = "<group>"; };
+		7916B4BF1FC2AB2E00CB76D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7916B4C21FC2AB2E00CB76D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7916B4C41FC2AB2E00CB76D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7916B4C91FC2AB2E00CB76D2 /* StarReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7916B4CD1FC2AB2E00CB76D2 /* StarReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarReaderTests.swift; sourceTree = "<group>"; };
+		7916B4CF1FC2AB2E00CB76D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7916B4D41FC2AB2E00CB76D2 /* StarReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7916B4D81FC2AB2E00CB76D2 /* StarReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarReaderUITests.swift; sourceTree = "<group>"; };
+		7916B4DA1FC2AB2E00CB76D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7916B4E71FC2ABD500CB76D2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7916B4E91FC2AC4E00CB76D2 /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79D478741FC29BD4008B7F9E /* Frameworks */ = {
+		7916B4AF1FC2AB2E00CB76D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7916B4E81FC2ABDB00CB76D2 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7916B4C61FC2AB2E00CB76D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D4788C1FC29BD4008B7F9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		79D478971FC29BD4008B7F9E /* Frameworks */ = {
+		7916B4D11FC2AB2E00CB76D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,69 +81,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79D4786E1FC29BD4008B7F9E = {
+		7916B4A91FC2AB2E00CB76D2 = {
 			isa = PBXGroup;
 			children = (
-				79D478791FC29BD4008B7F9E /* StarReader */,
-				79D478921FC29BD4008B7F9E /* StarReaderTests */,
-				79D4789D1FC29BD4008B7F9E /* StarReaderUITests */,
-				79D478781FC29BD4008B7F9E /* Products */,
+				7916B4B41FC2AB2E00CB76D2 /* StarReader */,
+				7916B4CC1FC2AB2E00CB76D2 /* StarReaderTests */,
+				7916B4D71FC2AB2E00CB76D2 /* StarReaderUITests */,
+				7916B4B31FC2AB2E00CB76D2 /* Products */,
+				7916B4E61FC2ABD400CB76D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		79D478781FC29BD4008B7F9E /* Products */ = {
+		7916B4B31FC2AB2E00CB76D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79D478771FC29BD4008B7F9E /* StarReader.app */,
-				79D4788F1FC29BD4008B7F9E /* StarReaderTests.xctest */,
-				79D4789A1FC29BD4008B7F9E /* StarReaderUITests.xctest */,
+				7916B4B21FC2AB2E00CB76D2 /* StarReader.app */,
+				7916B4C91FC2AB2E00CB76D2 /* StarReaderTests.xctest */,
+				7916B4D41FC2AB2E00CB76D2 /* StarReaderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79D478791FC29BD4008B7F9E /* StarReader */ = {
+		7916B4B41FC2AB2E00CB76D2 /* StarReader */ = {
 			isa = PBXGroup;
 			children = (
-				79D4787A1FC29BD4008B7F9E /* AppDelegate.swift */,
-				79D4787C1FC29BD4008B7F9E /* DocumentBrowserViewController.swift */,
-				79D4787E1FC29BD4008B7F9E /* DocumentViewController.swift */,
-				79D478801FC29BD4008B7F9E /* Document.swift */,
-				79D478821FC29BD4008B7F9E /* Main.storyboard */,
-				79D478851FC29BD4008B7F9E /* Assets.xcassets */,
-				79D478871FC29BD4008B7F9E /* LaunchScreen.storyboard */,
-				79D4788A1FC29BD4008B7F9E /* Info.plist */,
+				7916B4B51FC2AB2E00CB76D2 /* AppDelegate.swift */,
+				7916B4B71FC2AB2E00CB76D2 /* ViewController.swift */,
+				7916B4B91FC2AB2E00CB76D2 /* Main.storyboard */,
+				7916B4BF1FC2AB2E00CB76D2 /* Assets.xcassets */,
+				7916B4C11FC2AB2E00CB76D2 /* LaunchScreen.storyboard */,
+				7916B4C41FC2AB2E00CB76D2 /* Info.plist */,
+				7916B4BC1FC2AB2E00CB76D2 /* StarReader.xcdatamodeld */,
+				7916B4E91FC2AC4E00CB76D2 /* ReadingView.swift */,
 			);
 			path = StarReader;
 			sourceTree = "<group>";
 		};
-		79D478921FC29BD4008B7F9E /* StarReaderTests */ = {
+		7916B4CC1FC2AB2E00CB76D2 /* StarReaderTests */ = {
 			isa = PBXGroup;
 			children = (
-				79D478931FC29BD4008B7F9E /* StarReaderTests.swift */,
-				79D478951FC29BD4008B7F9E /* Info.plist */,
+				7916B4CD1FC2AB2E00CB76D2 /* StarReaderTests.swift */,
+				7916B4CF1FC2AB2E00CB76D2 /* Info.plist */,
 			);
 			path = StarReaderTests;
 			sourceTree = "<group>";
 		};
-		79D4789D1FC29BD4008B7F9E /* StarReaderUITests */ = {
+		7916B4D71FC2AB2E00CB76D2 /* StarReaderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				79D4789E1FC29BD4008B7F9E /* StarReaderUITests.swift */,
-				79D478A01FC29BD4008B7F9E /* Info.plist */,
+				7916B4D81FC2AB2E00CB76D2 /* StarReaderUITests.swift */,
+				7916B4DA1FC2AB2E00CB76D2 /* Info.plist */,
 			);
 			path = StarReaderUITests;
+			sourceTree = "<group>";
+		};
+		7916B4E61FC2ABD400CB76D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7916B4E71FC2ABD500CB76D2 /* CoreText.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79D478761FC29BD4008B7F9E /* StarReader */ = {
+		7916B4B11FC2AB2E00CB76D2 /* StarReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79D478A31FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReader" */;
+			buildConfigurationList = 7916B4DD1FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReader" */;
 			buildPhases = (
-				79D478731FC29BD4008B7F9E /* Sources */,
-				79D478741FC29BD4008B7F9E /* Frameworks */,
-				79D478751FC29BD4008B7F9E /* Resources */,
+				7916B4AE1FC2AB2E00CB76D2 /* Sources */,
+				7916B4AF1FC2AB2E00CB76D2 /* Frameworks */,
+				7916B4B01FC2AB2E00CB76D2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,72 +160,72 @@
 			);
 			name = StarReader;
 			productName = StarReader;
-			productReference = 79D478771FC29BD4008B7F9E /* StarReader.app */;
+			productReference = 7916B4B21FC2AB2E00CB76D2 /* StarReader.app */;
 			productType = "com.apple.product-type.application";
 		};
-		79D4788E1FC29BD4008B7F9E /* StarReaderTests */ = {
+		7916B4C81FC2AB2E00CB76D2 /* StarReaderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79D478A61FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReaderTests" */;
+			buildConfigurationList = 7916B4E01FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReaderTests" */;
 			buildPhases = (
-				79D4788B1FC29BD4008B7F9E /* Sources */,
-				79D4788C1FC29BD4008B7F9E /* Frameworks */,
-				79D4788D1FC29BD4008B7F9E /* Resources */,
+				7916B4C51FC2AB2E00CB76D2 /* Sources */,
+				7916B4C61FC2AB2E00CB76D2 /* Frameworks */,
+				7916B4C71FC2AB2E00CB76D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79D478911FC29BD4008B7F9E /* PBXTargetDependency */,
+				7916B4CB1FC2AB2E00CB76D2 /* PBXTargetDependency */,
 			);
 			name = StarReaderTests;
 			productName = StarReaderTests;
-			productReference = 79D4788F1FC29BD4008B7F9E /* StarReaderTests.xctest */;
+			productReference = 7916B4C91FC2AB2E00CB76D2 /* StarReaderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		79D478991FC29BD4008B7F9E /* StarReaderUITests */ = {
+		7916B4D31FC2AB2E00CB76D2 /* StarReaderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79D478A91FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReaderUITests" */;
+			buildConfigurationList = 7916B4E31FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReaderUITests" */;
 			buildPhases = (
-				79D478961FC29BD4008B7F9E /* Sources */,
-				79D478971FC29BD4008B7F9E /* Frameworks */,
-				79D478981FC29BD4008B7F9E /* Resources */,
+				7916B4D01FC2AB2E00CB76D2 /* Sources */,
+				7916B4D11FC2AB2E00CB76D2 /* Frameworks */,
+				7916B4D21FC2AB2E00CB76D2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				79D4789C1FC29BD4008B7F9E /* PBXTargetDependency */,
+				7916B4D61FC2AB2E00CB76D2 /* PBXTargetDependency */,
 			);
 			name = StarReaderUITests;
 			productName = StarReaderUITests;
-			productReference = 79D4789A1FC29BD4008B7F9E /* StarReaderUITests.xctest */;
+			productReference = 7916B4D41FC2AB2E00CB76D2 /* StarReaderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79D4786F1FC29BD4008B7F9E /* Project object */ = {
+		7916B4AA1FC2AB2E00CB76D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Xing Hu";
 				TargetAttributes = {
-					79D478761FC29BD4008B7F9E = {
+					7916B4B11FC2AB2E00CB76D2 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					79D4788E1FC29BD4008B7F9E = {
+					7916B4C81FC2AB2E00CB76D2 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 79D478761FC29BD4008B7F9E;
+						TestTargetID = 7916B4B11FC2AB2E00CB76D2;
 					};
-					79D478991FC29BD4008B7F9E = {
+					7916B4D31FC2AB2E00CB76D2 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 79D478761FC29BD4008B7F9E;
+						TestTargetID = 7916B4B11FC2AB2E00CB76D2;
 					};
 				};
 			};
-			buildConfigurationList = 79D478721FC29BD4008B7F9E /* Build configuration list for PBXProject "StarReader" */;
+			buildConfigurationList = 7916B4AD1FC2AB2E00CB76D2 /* Build configuration list for PBXProject "StarReader" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,37 +233,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 79D4786E1FC29BD4008B7F9E;
-			productRefGroup = 79D478781FC29BD4008B7F9E /* Products */;
+			mainGroup = 7916B4A91FC2AB2E00CB76D2;
+			productRefGroup = 7916B4B31FC2AB2E00CB76D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79D478761FC29BD4008B7F9E /* StarReader */,
-				79D4788E1FC29BD4008B7F9E /* StarReaderTests */,
-				79D478991FC29BD4008B7F9E /* StarReaderUITests */,
+				7916B4B11FC2AB2E00CB76D2 /* StarReader */,
+				7916B4C81FC2AB2E00CB76D2 /* StarReaderTests */,
+				7916B4D31FC2AB2E00CB76D2 /* StarReaderUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79D478751FC29BD4008B7F9E /* Resources */ = {
+		7916B4B01FC2AB2E00CB76D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D478891FC29BD4008B7F9E /* LaunchScreen.storyboard in Resources */,
-				79D478861FC29BD4008B7F9E /* Assets.xcassets in Resources */,
-				79D478841FC29BD4008B7F9E /* Main.storyboard in Resources */,
+				7916B4C31FC2AB2E00CB76D2 /* LaunchScreen.storyboard in Resources */,
+				7916B4C01FC2AB2E00CB76D2 /* Assets.xcassets in Resources */,
+				7916B4BB1FC2AB2E00CB76D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D4788D1FC29BD4008B7F9E /* Resources */ = {
+		7916B4C71FC2AB2E00CB76D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D478981FC29BD4008B7F9E /* Resources */ = {
+		7916B4D21FC2AB2E00CB76D2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,61 +273,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79D478731FC29BD4008B7F9E /* Sources */ = {
+		7916B4AE1FC2AB2E00CB76D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D478811FC29BD4008B7F9E /* Document.swift in Sources */,
-				79D4787F1FC29BD4008B7F9E /* DocumentViewController.swift in Sources */,
-				79D4787D1FC29BD4008B7F9E /* DocumentBrowserViewController.swift in Sources */,
-				79D4787B1FC29BD4008B7F9E /* AppDelegate.swift in Sources */,
+				7916B4BE1FC2AB2E00CB76D2 /* StarReader.xcdatamodeld in Sources */,
+				7916B4EA1FC2AC4E00CB76D2 /* ReadingView.swift in Sources */,
+				7916B4B81FC2AB2E00CB76D2 /* ViewController.swift in Sources */,
+				7916B4B61FC2AB2E00CB76D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D4788B1FC29BD4008B7F9E /* Sources */ = {
+		7916B4C51FC2AB2E00CB76D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D478941FC29BD4008B7F9E /* StarReaderTests.swift in Sources */,
+				7916B4CE1FC2AB2E00CB76D2 /* StarReaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D478961FC29BD4008B7F9E /* Sources */ = {
+		7916B4D01FC2AB2E00CB76D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D4789F1FC29BD4008B7F9E /* StarReaderUITests.swift in Sources */,
+				7916B4D91FC2AB2E00CB76D2 /* StarReaderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		79D478911FC29BD4008B7F9E /* PBXTargetDependency */ = {
+		7916B4CB1FC2AB2E00CB76D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79D478761FC29BD4008B7F9E /* StarReader */;
-			targetProxy = 79D478901FC29BD4008B7F9E /* PBXContainerItemProxy */;
+			target = 7916B4B11FC2AB2E00CB76D2 /* StarReader */;
+			targetProxy = 7916B4CA1FC2AB2E00CB76D2 /* PBXContainerItemProxy */;
 		};
-		79D4789C1FC29BD4008B7F9E /* PBXTargetDependency */ = {
+		7916B4D61FC2AB2E00CB76D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79D478761FC29BD4008B7F9E /* StarReader */;
-			targetProxy = 79D4789B1FC29BD4008B7F9E /* PBXContainerItemProxy */;
+			target = 7916B4B11FC2AB2E00CB76D2 /* StarReader */;
+			targetProxy = 7916B4D51FC2AB2E00CB76D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		79D478821FC29BD4008B7F9E /* Main.storyboard */ = {
+		7916B4B91FC2AB2E00CB76D2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79D478831FC29BD4008B7F9E /* Base */,
+				7916B4BA1FC2AB2E00CB76D2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		79D478871FC29BD4008B7F9E /* LaunchScreen.storyboard */ = {
+		7916B4C11FC2AB2E00CB76D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79D478881FC29BD4008B7F9E /* Base */,
+				7916B4C21FC2AB2E00CB76D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -323,7 +335,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		79D478A11FC29BD4008B7F9E /* Debug */ = {
+		7916B4DB1FC2AB2E00CB76D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		79D478A21FC29BD4008B7F9E /* Release */ = {
+		7916B4DC1FC2AB2E00CB76D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,13 +442,14 @@
 			};
 			name = Release;
 		};
-		79D478A41FC29BD4008B7F9E /* Debug */ = {
+		7916B4DE1FC2AB2E00CB76D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGTV7NMB6E;
 				INFOPLIST_FILE = StarReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xing.StarReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,13 +458,14 @@
 			};
 			name = Debug;
 		};
-		79D478A51FC29BD4008B7F9E /* Release */ = {
+		7916B4DF1FC2AB2E00CB76D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JGTV7NMB6E;
 				INFOPLIST_FILE = StarReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xing.StarReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,7 +474,7 @@
 			};
 			name = Release;
 		};
-		79D478A71FC29BD4008B7F9E /* Debug */ = {
+		7916B4E11FC2AB2E00CB76D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -477,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		79D478A81FC29BD4008B7F9E /* Release */ = {
+		7916B4E21FC2AB2E00CB76D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,7 +508,7 @@
 			};
 			name = Release;
 		};
-		79D478AA1FC29BD4008B7F9E /* Debug */ = {
+		7916B4E41FC2AB2E00CB76D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +524,7 @@
 			};
 			name = Debug;
 		};
-		79D478AB1FC29BD4008B7F9E /* Release */ = {
+		7916B4E51FC2AB2E00CB76D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -529,43 +543,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79D478721FC29BD4008B7F9E /* Build configuration list for PBXProject "StarReader" */ = {
+		7916B4AD1FC2AB2E00CB76D2 /* Build configuration list for PBXProject "StarReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D478A11FC29BD4008B7F9E /* Debug */,
-				79D478A21FC29BD4008B7F9E /* Release */,
+				7916B4DB1FC2AB2E00CB76D2 /* Debug */,
+				7916B4DC1FC2AB2E00CB76D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79D478A31FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReader" */ = {
+		7916B4DD1FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D478A41FC29BD4008B7F9E /* Debug */,
-				79D478A51FC29BD4008B7F9E /* Release */,
+				7916B4DE1FC2AB2E00CB76D2 /* Debug */,
+				7916B4DF1FC2AB2E00CB76D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79D478A61FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReaderTests" */ = {
+		7916B4E01FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReaderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D478A71FC29BD4008B7F9E /* Debug */,
-				79D478A81FC29BD4008B7F9E /* Release */,
+				7916B4E11FC2AB2E00CB76D2 /* Debug */,
+				7916B4E21FC2AB2E00CB76D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79D478A91FC29BD4008B7F9E /* Build configuration list for PBXNativeTarget "StarReaderUITests" */ = {
+		7916B4E31FC2AB2E00CB76D2 /* Build configuration list for PBXNativeTarget "StarReaderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D478AA1FC29BD4008B7F9E /* Debug */,
-				79D478AB1FC29BD4008B7F9E /* Release */,
+				7916B4E41FC2AB2E00CB76D2 /* Debug */,
+				7916B4E51FC2AB2E00CB76D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7916B4BC1FC2AB2E00CB76D2 /* StarReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7916B4BD1FC2AB2E00CB76D2 /* StarReader.xcdatamodel */,
+			);
+			currentVersion = 7916B4BD1FC2AB2E00CB76D2 /* StarReader.xcdatamodel */;
+			path = StarReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 79D4786F1FC29BD4008B7F9E /* Project object */;
+	rootObject = 7916B4AA1FC2AB2E00CB76D2 /* Project object */;
 }
